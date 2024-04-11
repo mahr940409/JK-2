@@ -1,19 +1,35 @@
-    // Obtenemos todas las imágenes de producto
-    var imagenesProductos = document.querySelectorAll('.producto img');
+// Obtenemos todas las imágenes de producto
+var imagenesProductos = document.querySelectorAll('.producto img');
 
-    // Iteramos sobre cada imagen
-    imagenesProductos.forEach(function(imagen) {
-        // Añadimos un evento para cuando el cursor se mueve sobre la imagen
-        imagen.addEventListener('mouseover', function() {
-            // Aumentamos el tamaño de la imagen al 110%
-            this.style.transform = 'scale(1.1)';
-            // Agregamos una transición suave
-            this.style.transition = 'transform 0.3s ease-in-out';
-        });
+// Función para manejar el evento de aumento de tamaño
+function aumentarTamaño() {
+    // Aumentamos el tamaño de la imagen al 180%
+    this.style.transform = 'scale(1.8)';
+    // Ajustamos el z-index para que la imagen esté por encima de las demás
+    this.style.zIndex = '1';
+    // Agregamos una transición suave
+    this.style.transition = 'transform 0.3s ease-in-out';
+}
 
-        // Añadimos un evento para cuando el cursor sale de la imagen
-        imagen.addEventListener('mouseout', function() {
-            // Revertimos al tamaño original
-            this.style.transform = 'scale(1)';
-        });
-    });
+// Función para manejar el evento de restaurar tamaño
+function restaurarTamaño() {
+    // Revertimos al tamaño original
+    this.style.transform = 'scale(1)';
+    // Restablecemos el z-index al valor original
+    this.style.zIndex = '0';
+}
+
+// Iteramos sobre cada imagen
+imagenesProductos.forEach(function(imagen) {
+    // Añadimos un evento para cuando el cursor se mueve sobre la imagen (para PC)
+    imagen.addEventListener('mouseover', aumentarTamaño);
+    
+    // Añadimos un evento para cuando el cursor sale de la imagen (para PC)
+    imagen.addEventListener('mouseout', restaurarTamaño);
+    
+    // Añadimos un evento para cuando se toca la imagen en dispositivos táctiles
+    imagen.addEventListener('touchstart', aumentarTamaño);
+    
+    // Añadimos un evento para cuando se deja de tocar la imagen en dispositivos táctiles
+    imagen.addEventListener('touchend', restaurarTamaño);
+});
