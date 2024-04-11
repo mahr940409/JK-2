@@ -1,9 +1,7 @@
-/*Estilos del Logo*/
-
+/* Estilos del Logo */
 .logo img {
     height: 30px; /* Ajusta la altura según lo necesites */
 }
-
 
 /* Estilos generales */
 body {
@@ -119,11 +117,13 @@ footer p {
     background-color: #A0522D; /* Marrón más claro al pasar el mouse */
 }
 
+/* Estilos para la descripción de la empresa */
 .descripcion-empresa {
-    background-color: #f8f8f8;
+    background-color: #f9f9f9;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    text-align: center; /* Centrar el contenido */
 }
 
 .descripcion-empresa h2 {
@@ -133,7 +133,33 @@ footer p {
 }
 
 .descripcion-empresa p {
-    color: #666;
+    color: #333;
     font-size: 16px;
     line-height: 1.6;
+}
+
+/* Estilos para los datos del dueño y la ubicación */
+#dueño,
+#ubicacion {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center; /* Centrar el contenido */
+    padding: 20px;
+}
+
+#dueño h2,
+#ubicacion h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+address {
+    font-style: normal;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.address-title {
+    font-weight: bold;
 }
