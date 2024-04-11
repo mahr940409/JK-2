@@ -33,3 +33,18 @@ imagenesProductos.forEach(function(imagen) {
     // Añadimos un evento para cuando se deja de tocar la imagen en dispositivos táctiles
     imagen.addEventListener('touchend', restaurarTamaño);
 });
+
+// Función para desplazar la página hacia la parte superior
+function scrollToTop() {
+    window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth' // Esta línea hace que el desplazamiento sea suave
+    });
+}
+
+// Espera a que la página se cargue completamente
+window.addEventListener('load', function() {
+    // Desplaza la página hacia la parte superior
+    scrollToTop();
+});
