@@ -1,0 +1,120 @@
+/*Estilos del Logo*/
+
+.logo img {
+    height: 30px; /* Ajusta la altura según lo necesites */
+}
+
+
+/* Estilos generales */
+body {
+    background-color: #F5F5F5; 
+    color: #000000; 
+    font-family: Arial, sans-serif;
+    border: 5px solid #8B4513; /* Borde marrón */
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #8B4513; /* Marrón */
+    color: #FFFFFF; /* Blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* Blanco */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para los productos */
+.container {
+    text-align: center; /* Centrar los productos */
+}
+
+.producto {
+    border: 1px solid #8B4513;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin-top: 0;
+    color: #8B4513; /* Marrón */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #8B4513; 
+    color: #FFFFFF; /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto {
+    margin-bottom: 20px;
+}
+
+.contacto h3 {
+    color: #8B4513; /* Marrón */
+}
+
+footer p span {
+    font-size: 1em; /* Tamaño del texto */
+    vertical-align: middle;
+}
+
+footer p img {
+    height: 1em; /* Tamaño del texto */
+    margin-right: 5px; /* Espacio entre el logo y el texto */
+}
+
+footer p {
+    font-size: 1em; /* Tamaño del texto */
+}
+
+/* Estilos para los botones de contacto */
+.contact-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #8B4513; /* Marrón */
+    color: #FFFFFF; /* Blanco */
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-buttons a:hover {
+    background-color: #A0522D; /* Marrón más claro al pasar el mouse */
+}
