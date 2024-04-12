@@ -163,3 +163,10 @@ address {
 .address-title {
     font-weight: bold;
 }
+
+/* Estilos para el video */
+video {
+    width: 30%; 
+    margin-top: 20px; 
+    border-radius: 10px; 
+}
