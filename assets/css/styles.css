@@ -64,13 +64,13 @@ nav ul li a:hover {
 
 .producto h3 {
     margin-top: 0;
-    color: #8B4513; /* Marrón */
+    color: #8B4513; 
 }
 
 /* Estilos para el footer */
 footer {
     background-color: #8B4513; 
-    color: #FFFFFF; /* Blanco */
+    color: #FFFFFF; 
     text-align: center;
     padding: 20px;
 }
@@ -80,21 +80,21 @@ footer {
 }
 
 .contacto h3 {
-    color: #8B4513; /* Marrón */
+    color: #8B4513; 
 }
 
 footer p span {
-    font-size: 1em; /* Tamaño del texto */
+    font-size: 1em; 
     vertical-align: middle;
 }
 
 footer p img {
-    height: 1em; /* Tamaño del texto */
-    margin-right: 5px; /* Espacio entre el logo y el texto */
+    height: 1em; 
+    margin-right: 5px; 
 }
 
 footer p {
-    font-size: 1em; /* Tamaño del texto */
+    font-size: 1em; 
 }
 
 /* Estilos para los botones de contacto */
@@ -107,14 +107,14 @@ footer p {
     display: inline-block;
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #8B4513; /* Marrón */
-    color: #FFFFFF; /* Blanco */
+    background-color: #8B4513; 
+    color: #FFFFFF; 
     text-decoration: none;
     border-radius: 5px;
 }
 
 .contact-buttons a:hover {
-    background-color: #A0522D; /* Marrón más claro al pasar el mouse */
+    background-color: #A0522D; 
 }
 
 /* Estilos para la descripción de la empresa */
@@ -123,7 +123,7 @@ footer p {
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
-    text-align: center; /* Centrar el contenido */
+    text-align: center; 
 }
 
 .descripcion-empresa h2 {
@@ -143,7 +143,7 @@ footer p {
 #ubicacion {
     background-color: #f9f9f9;
     border-radius: 5px;
-    text-align: center; /* Centrar el contenido */
+    text-align: center; 
     padding: 20px;
 }
 
