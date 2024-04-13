@@ -1,6 +1,6 @@
 /* Estilos del Logo */
 .logo img {
-    height: 30px; /* Ajusta la altura según lo necesites */
+    height: 30px; 
 }
 
 /* Estilos generales */
@@ -8,14 +8,14 @@ body {
     background-color: #F5F5F5; 
     color: #000000; 
     font-family: Arial, sans-serif;
-    border: 5px solid #8B4513; /* Borde marrón */
+    border: 5px solid #8B4513; 
     padding: 20px;
 }
 
 /* Estilos para el encabezado */
 header {
-    background-color: #8B4513; /* Marrón */
-    color: #FFFFFF; /* Blanco */
+    background-color: #8B4513; 
+    color: #FFFFFF; 
     padding: 20px;
     text-align: center;
 }
@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFFFFF; /* Blanco */
+    color: #FFFFFF; 
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ nav ul li a:hover {
 
 /* Estilos para los productos */
 .container {
-    text-align: center; /* Centrar los productos */
+    text-align: center; 
 }
 
 .producto {
